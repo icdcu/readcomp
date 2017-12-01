@@ -219,7 +219,7 @@ records_count2=0
 
 try:
  cnx2 = mysql.connector.connect(user='Sanders', password='cjf0329ABC!',
-                              host='localhost',
+                              host='18.216.66.226',
                               database='pubmed')
  cursor2=cnx2.cursor(buffered=True)
 
@@ -237,7 +237,7 @@ else:
 db_connection3=0
 try:
  cnx3 = mysql.connector.connect(user='Sanders', password='cjf0329ABC!',
-                              host='localhost',
+                              host='18.216.66.226',
                               database='pubmed')
  cursor3=cnx3.cursor(buffered=True)
 
