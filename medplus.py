@@ -17,7 +17,6 @@ import re
 import mysql.connector
 from mysql.connector import errorcode
 from textstat.textstat import textstat
-
 import sqlite3
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
